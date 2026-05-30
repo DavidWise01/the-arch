@@ -1,0 +1,53 @@
+/**
+ * tokens.css — Design tokens for The Arch
+ * ROOT0-ATTRIBUTION-v1.0 · David Lee Wise / ROOT0 / TriPod LLC
+ */
+
+:root {
+  /* ── Backgrounds ───────────────────────────────────── */
+  --bg:          #151820;
+  --bg2:         #0f1117;
+  --panel:       #1c2028;
+  --panel-hover: #21262f;
+
+  /* ── Text ──────────────────────────────────────────── */
+  --txt:         #d8d4c8;
+  --txt2:        #948f84;
+  --faint:       #63615a;
+  --dim:         #454340;
+  --inscribe:    #ece8db;
+
+  /* ── Stone palette ─────────────────────────────────── */
+  --stone-l:     #848994;
+  --stone:       #6a6f7a;
+  --stone-d:     #4e5260;
+  --joint:       #32363e;
+  --hair:        #282c34;
+  --mortar:      #1e2128;
+
+  /* ── Bronze palette ────────────────────────────────── */
+  --bronze-l:    #dbb468;
+  --bronze:      #c0923e;
+  --bronze-d:    #906828;
+  --bronze-glow: #edca70;
+  --bronze-ink:  #1e1204;
+
+  /* ── Accent ─────────────────────────────────────────── */
+  --accent:      var(--bronze);
+  --danger:      #c05050;
+
+  /* ── Typography ────────────────────────────────────── */
+  --disp:  "Cinzel", Georgia, serif;
+  --body:  "Spectral", Georgia, serif;
+  --mono:  "JetBrains Mono", "IBM Plex Mono", ui-monospace, monospace;
+
+  /* ── Spacing ────────────────────────────────────────── */
+  --r-sm:  6px;
+  --r-md:  10px;
+  --r-lg:  14px;
+
+  /* ── Transitions ────────────────────────────────────── */
+  --t-fast:   0.12s ease;
+  --t-mid:    0.25s ease;
+  --t-spring: 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}

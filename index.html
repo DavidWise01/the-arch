@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="The Arch — a governance structure for automated intelligence. Six courses on a foundation of compliance, tapering to the keystone: the human who answers.">
+<meta property="og:title" content="The Arch — AI Governance Structure">
+<meta property="og:description" content="Six courses, a keystone. The structure that makes the human apex loud, attributable, and impossible to remove quietly.">
+<title>The Arch — a governance structure for automated intelligence</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Spectral:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/tokens.css">
+<link rel="stylesheet" href="css/arch.css">
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <p class="kick">Automated, not artificial &middot; the structure, closed</p>
+    <h1 class="arch-title">The Arch</h1>
+    <p class="sub">Six courses on a foundation of compliance, tapering to a single keystone — the human who answers. Wider below where the primitives lie flat; narrower and heavier above, where fewer pieces carry more.</p>
+  </header>
+
+  <div class="toolbar">
+    <button class="tool-btn" id="btn-trace" title="Animate the accountability load path from the selected course (T)">▸ TRACE LOAD</button>
+    <button class="tool-btn" id="btn-info"  title="Show architecture notes">ℹ INFO</button>
+  </div>
+
+  <div class="kbd-hint" aria-label="keyboard shortcuts">
+    <span><kbd>↑</kbd><kbd>↓</kbd> navigate</span>
+    <span><kbd>T</kbd> trace load</span>
+    <span><kbd>Home</kbd> foundation</span>
+    <span><kbd>End</kbd> keystone</span>
+  </div>
+
+  <div class="stage">
+    <svg class="arch" id="arch" viewBox="0 0 760 720" aria-label="The Arch — governance structure" role="img"></svg>
+    <div class="detail" id="detail" aria-live="polite"></div>
+  </div>
+
+  <div class="axes">
+    <span class="ax">◣ <b>width = primitives</b> — most at the base (5 → 4 → 3 → 2 → 1)</span>
+    <span class="ax">▲ <b>height = load</b> — most at the keystone</span>
+  </div>
+
+  <p class="keyline">
+    Every course transfers its accountability upward and <span class="res">resolves at the keystone.</span>
+    It is the one stone with nothing above it and everything below it — the single point of entry and of failure.
+    <b>Break the keystone, and there is no system.</b>
+    So the whole structure exists to make pulling it loud, attributable, and impossible to do quietly.
+  </p>
+
+  <div class="info-panel" id="info-panel" hidden aria-hidden="true">
+    <h3>How the arch works</h3>
+    <p>
+      <b>Width = primitives.</b> The widest course (COMPLIANCE, 5 blocks) has the most atomic governance claims. Each block is a primitive — an irreducible statement about what the system owes. As courses rise, fewer primitives are needed because each one carries more assembled weight.
+    </p>
+    <p>
+      <b>Height = load.</b> The keystone carries everything below it. The escalation layer (course V) is one block because it needs to be: a single unambiguous wire to the human. The keystone (course VI) is one stone because there can only be one apex.
+    </p>
+    <p>
+      <b>The void beneath.</b> The arch spans an opening. In this structure, the void is the space where accountability disappears if the arch is removed — the gap that the governed thing would fall into without the structure above it.
+    </p>
+    <p>
+      <b>Trace load (T).</b> Press <code>T</code> or click TRACE LOAD to animate the accountability path from the selected course upward to the keystone.
+    </p>
+    <p>
+      <b>The honest boundary.</b> Each course declares what it does not do. Verification does not self-certify. Escalation does not guarantee the human acts well. The keystone does not guarantee infallibility. The structure does not claim to prevent all failure — only to make failure loud.
+    </p>
+  </div>
+
+  <div class="structure-summary">
+    <b>bottom to top:</b>
+    compliance &middot; the automated nested-shell process &middot; ethics of treatment &middot; verification &middot; escalation &middot; the human acts
+    <br>
+    Width is how many primitives a course needs; height is how much assembled load it carries.
+    You spend breadth at the base to earn the keystone at the top —
+    and the keystone is the human accountability everything was built to make unremovable.
+  </div>
+
+</div><!-- /wrap -->
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
